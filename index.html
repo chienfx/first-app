@@ -2,12 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Hello World</title>
+	<title>Bootstrap Website Make with Github Pages</title>
 	<link rel="stylesheet" href="app.css">
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="wrap">
-		<h1>Hello World!!!</h1>
+	<div class="container-fluid">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<form action="" method="POST" role="form">
+				<legend>Đăng nhập</legend>
+			
+				<div class="form-group">
+					<label for="Username">Username:</label>
+					<input type="text" class="form-control" id="Username" placeholder="Input Username in here">
+				</div>
+			<div class="form-group">
+					<label for="Password">Password:</label>
+					<input type="password" class="form-control" id="Password" placeholder="Input Password in here">
+				</div>
+				
+			
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			
+		</div>
 	</div>
 	<script src="app.js"></script>
 </body>
